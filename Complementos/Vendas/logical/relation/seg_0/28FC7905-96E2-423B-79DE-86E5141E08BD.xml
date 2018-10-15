@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Compoe" directorySegmentName="seg_0" id="28FC7905-96E2-423B-79DE-86E5141E08BD">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:32:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97125525-1D93-1B50-33BF-6BCD023A8FA0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97125525-1D93-1B50-33BF-6BCD023A8FA0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Quantidade" id="9CF18ABE-C35C-2FE1-B05C-3D0E89A62A1B">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:33:30 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</attribute>
+</attributes>
+</Relation>

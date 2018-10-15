@@ -3,9 +3,6 @@
 <createdBy>Jefferson</createdBy>
 <createdTime>2018-09-27 03:21:26 UTC</createdTime>
 <ownerDesignName>Vendas</ownerDesignName>
-<engineerTo>
-<item key="818C9F7E-8483-4148-3F8E-D80735CE2236" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -14,4 +11,49 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Descrição" id="6B9ECA71-426B-31D3-0A9A-30BE3AB34168">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:33:34 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="00632DE3-A206-BAC9-53A4-9B73930B094A">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:33:46 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Peso" id="8F98487B-E146-06EF-BCD9-70D6F903E033">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:33:53 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="F8B83E67-D297-F0DA-7142-A5379371FC29">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-10-12 14:28:27 UTC</createdTime>
+<generatorID>6D2CE170-8061-C9FB-2060-F59C4B32EC1E</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<referedAttribute>7E946336-FDA3-6D11-8EC1-E60DF521DA88</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data Inicio" id="3713EBF8-3B7A-CE31-011A-447209F0BAB5">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-10-12 14:28:27 UTC</createdTime>
+<generatorID>6D2CE170-8061-C9FB-2060-F59C4B32EC1E</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<referedAttribute>18EE23DA-7582-00BD-DACD-5AA388A6B2A5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

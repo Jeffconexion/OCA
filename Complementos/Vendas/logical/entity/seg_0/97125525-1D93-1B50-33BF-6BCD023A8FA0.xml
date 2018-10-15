@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97125525-1D93-1B50-33BF-6BCD023A8FA0" name="Peça">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-11-25 19:38:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Descrição" id="67F1597B-676C-7D4A-06D3-19C603DF985D">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-11-28 12:12:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Tipo" id="88748E94-B932-DA64-BA12-91A55E322136">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-11-28 12:12:19 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Peso" id="604FF899-A714-C36F-CBAC-6AA107E2E913">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-11-28 12:12:24 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+<Attribute name="Nome" id="3AF0146D-A5C9-89B6-FFB0-7226EC6677BB">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-10 19:43:53 UTC</createdTime>
+<generatorID>26BB1A0D-4F82-5331-74F0-A226851A9E87</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<referedAttribute>4BB47323-01EB-B038-A7BA-3B345F15576C</referedAttribute>
+<use>0</use>
+</Attribute>
+<Attribute name="Data Início" id="D03BF2C5-6F4C-5B52-91D2-EF73A945E62D">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-10 19:43:53 UTC</createdTime>
+<generatorID>26BB1A0D-4F82-5331-74F0-A226851A9E87</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<referedAttribute>F90CAB64-6902-0D26-8586-A6A55AB4457B</referedAttribute>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

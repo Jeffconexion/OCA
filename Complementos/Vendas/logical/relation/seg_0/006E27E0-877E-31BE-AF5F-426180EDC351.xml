@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fornece" directorySegmentName="seg_0" id="006E27E0-877E-31BE-AF5F-426180EDC351">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:28:31 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ABBE953E-167A-A193-EE1A-39C8ADDA85C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97125525-1D93-1B50-33BF-6BCD023A8FA0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Data Inicio" id="14295047-4780-E36B-BF78-851F03A6CA16">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:30:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</attribute>
+<attribute name="Condicao" id="B047CAFF-DF7F-DFA2-60D3-7D73755DBCF5">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:30:54 UTC</createdTime>
+<comment>Este atributo seria composto: prazo, preço, quantidade</comment>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</attribute>
+<attribute name="Tipo" id="93BB45E4-4D98-8C78-7C37-CBBD5FF86B49">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:31:27 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</attribute>
+<attribute name="Forma de Pagamento" id="A18C3F5F-92AD-0AB7-DDC9-8EE8C8558F4E">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:31:37 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</attribute>
+<attribute name="Termo de Garantia" id="C45A9733-0F00-BB77-8D8A-47B665B326A5">
+<createdBy>Eduardo</createdBy>
+<createdTime>2014-12-04 19:31:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Vendas</ownerDesignName>
+<engineerTo>
+<item key="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</attribute>
+</attributes>
+</Relation>

@@ -6,91 +6,18 @@
 	<automatic_fk_generation value="false" />
 	<preserve_ddl_generation_options value="false" />
 	<use_global_design_level_settings value="false" />
-	<use_preferred_classification_types value="false" />
 	<substitution_patterns>
 	</substitution_patterns>
 	<classification_types>
-		<type name="Fato" color="-7482" fgcolor="-16776961" prefix="" id="1" preferred="false" >
-		<fonts>
-			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
-			<font_object fo_type="Elemento" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Primária" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Estrangeira" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
-		</fonts>
-		</type>
-		<type name="Dimensão" color="-1781507" fgcolor="-16776961" prefix="" id="2" preferred="false" >
-		<fonts>
-			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
-			<font_object fo_type="Elemento" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Primária" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Estrangeira" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
-		</fonts>
-		</type>
-		<type name="Registrando" color="-1776412" fgcolor="-16776961" prefix="" id="3" preferred="false" >
-		<fonts>
-			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
-			<font_object fo_type="Elemento" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Primária" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Estrangeira" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
-		</fonts>
-		</type>
-		<type name="Resumo" color="-3148598" fgcolor="-16776961" prefix="" id="4" preferred="false" >
-		<fonts>
-			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
-			<font_object fo_type="Elemento" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Primária" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Estrangeira" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
-		</fonts>
-		</type>
-		<type name="Temporário" color="-1" fgcolor="-16776961" prefix="" id="5" preferred="false" >
-		<fonts>
-			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
-			<font_object fo_type="Elemento" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Primária" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Estrangeira" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
-		</fonts>
-		</type>
-		<type name="Externo" color="-720908" fgcolor="-16776961" prefix="" id="6" preferred="false" >
-		<fonts>
-			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
-			<font_object fo_type="Elemento" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Primária" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Estrangeira" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
-		</fonts>
-		</type>
-		</classification_types>
+		<type name="Fato" color="-7482" prefix="" id="1" />
+		<type name="Dimensão" color="-1781507" prefix="" id="2" />
+		<type name="Registrando" color="-1776412" prefix="" id="3" />
+		<type name="Resumo" color="-3148598" prefix="" id="4" />
+		<type name="Temporário" color="-1" prefix="" id="5" />
+		<type name="External" color="-720908" prefix="" id="6" />
+	</classification_types>
 	<default_fonts_and_colors>
-		<fc_object classname="Entity" background="-5971457" foreground="-16776961" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Entity" background="-5971457" foreground="-16776961">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Atributo" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
@@ -100,18 +27,18 @@
 			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
+			<font_object fo_type="Comments" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Logical View" background="-25750" foreground="-16776961" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Logical View" background="-25750" foreground="-16776961">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Atributo" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
+			<font_object fo_type="Comments" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Table" background="-76" foreground="-16776961" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Table" background="-76" foreground="-16776961">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Coluna" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
@@ -121,23 +48,18 @@
 			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
+			<font_object fo_type="Comments" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Relational View" background="-6881386" foreground="-16776961" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Relational View" background="-6881386" foreground="-16776961">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Coluna" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Primária" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento da Chave Estrangeira" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Elemento de Chave Exclusiva" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Chave" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Comentários" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
+			<font_object fo_type="Comments" font_color="-12566464" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Structured Type" background="-7537956" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Structured Type" background="-7537956" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Atributo" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
@@ -147,7 +69,7 @@
 			<font_object fo_type="Obrigatório" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Cube" background="-7482" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Cube" background="-7482" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Entidades de Fato" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
@@ -158,12 +80,12 @@
 			<font_object fo_type="Atributos de Filho para Pai" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Dimension" background="-16713196" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Dimension" background="-16713196" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Level" background="-1781507" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Level" background="-1781507" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Entidade do Nível" font_color="-16776961" font_name="Dialog" font_size="10" font_style="0"/>
@@ -172,64 +94,57 @@
 			<font_object fo_type="Função" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Process" background="-106" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Process" background="-106" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Número do Processo" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="Tarefa de Transformação" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="External Agent" background="-5570646" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="External Agent" background="-5570646" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Information Store" background="-10170881" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Information Store" background="-10170881" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16776961" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Número" font_color="-1" font_name="Dialog" font_size="10" font_style="1"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="In-Out Parameters" background="-328966" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="In-Out Parameters" background="-328966" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16777216" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Parâmetros" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="Tipo de dados" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Transformation" background="-43" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Transformation" background="-43" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16777216" font_name="Dialog" font_size="10" font_style="1"/>
 			<font_object fo_type="Número do Processo" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Note" background="-4144960" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Note" background="-4144960" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Título" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Label" background="-1" foreground="-16777216" noBackgroundColor="true" noForegroundColor="true">
+		<fc_object classname="Label" background="-1" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Texto" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Relationship Attributes" background="-26266" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Relationship Attributes" background="-26266" foreground="-16777216">
 		<fonts>
 			<font_object fo_type="Atributo" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="Tipo de dados" font_color="-16744448" font_name="Dialog" font_size="10" font_style="0"/>
 			<font_object fo_type="NOT NULL" font_color="-65536" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
-		<fc_object classname="Legend" background="-1" foreground="-16777216" noBackgroundColor="false" noForegroundColor="false">
+		<fc_object classname="Legend" background="-1" foreground="-16777216">
 		<fonts>
-			<font_object fo_type="Diagrama" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Autor" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Criado em" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Modificado em" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Modificado por" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Design" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Modelo" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
-			<font_object fo_type="Propriedades Definidas pelo Usuário" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
+			<font_object fo_type="Texto" font_color="-16777216" font_name="Dialog" font_size="10" font_style="0"/>
 		</fonts>
 		</fc_object>
 	</default_fonts_and_colors>
@@ -333,7 +248,7 @@
 			<property name="Tipo de Dados" selected="true"/>
 			<property name="Espécie de Tipo de Dados" selected="true"/>
 			<property name="Obrigatório" selected="true"/>
-			<property name="Valor Padrão" selected="true"/>
+			<property name="Valor Default" selected="true"/>
 			<property name="Nome da Restrição de Verificação" selected="true"/>
 			<property name="Usar Restrição de Domínio" selected="true"/>
 			<property name="Restrição de Verificação" selected="true"/>
@@ -358,7 +273,7 @@
 		</key_index>
 		<relation_fk>
 			<property name="Nome" selected="true"/>
-			<property name="Excluir Regra" selected="true"/>
+			<property name="Deletar Regra" selected="true"/>
 			<property name="Comentário" selected="true"/>
 			<property name="Comentário no RDBMS" selected="true"/>
 			<property name="Observações" selected="true"/>
@@ -384,12 +299,10 @@
 	</eng_compare>
 	<model_compare_props_filter>
 	</model_compare_props_filter>
-	<model_compare_dyn_props_filter>
-	</model_compare_dyn_props_filter>
 	<model_compare_storage_props_filter>
 	</model_compare_storage_props_filter>
 	<naming_options>
-		<model_options objectid="818C9F7E-8483-4148-3F8E-D80735CE2236">
+		<model_options objectid="F2870CC2-8C20-A8A6-4138-497BC8B4FAB7">
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
@@ -397,38 +310,16 @@
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
 		</model_options>
-		<model_options objectid="429526F1-9A1D-1238-D0D4-41E8AFD13BE6">
+		<model_options objectid="21832649-07D4-E767-A6F7-7C90FD5CBB60">
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Entity" max_name_length="254" case_type="2" valid_characters="null" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.Attribute" max_name_length="254" case_type="2" valid_characters="null" all_valid="true" />
 			<naming_option class_name="oracle.dbtools.crest.model.design.logical.EntityView" max_name_length="254" case_type="2" valid_characters="null" all_valid="true" />
 		</model_options>
 	</naming_options>
+	<merge_conflicts>
+	</merge_conflicts>
 	<deleted_files>
 	</deleted_files>
 	<dynamic_properties>
 	</dynamic_properties>
-	<design_estimates>
-		<logical_model_estimates>
-			<entities value="70"/>
-			<relations value="70"/>
-			<views value="70"/>
-			<arcs value="70"/>
-		</logical_model_estimates>
-		<data_types_model_estimates>
-			<structured_types value="70"/>
-			<collection_types value="70"/>
-			<distinct_types value="70"/>
-		</data_types_model_estimates>
-		<relational_model_estimates>
-			<relational_model_0_estimates>
-				<relational_model_name value="Relational_1"/>
-				<tables value="70"/>
-				<views value="70"/>
-				<foreign_keys value="70"/>
-				<schemas value="70"/>
-				<subviews value="70"/>
-				<arcs value="70"/>
-			</relational_model_0_estimates>
-		</relational_model_estimates>
-	</design_estimates>
 </settings>

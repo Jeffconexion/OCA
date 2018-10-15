@@ -3,9 +3,6 @@
 <createdBy>Jefferson</createdBy>
 <createdTime>2018-09-27 03:22:10 UTC</createdTime>
 <ownerDesignName>Vendas</ownerDesignName>
-<engineerTo>
-<item key="818C9F7E-8483-4148-3F8E-D80735CE2236" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -14,4 +11,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="7E946336-FDA3-6D11-8EC1-E60DF521DA88">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:34:10 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data Inicio" id="18EE23DA-7582-00BD-DACD-5AA388A6B2A5">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:34:17 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gerente" id="A9061F97-51B5-6FD1-6F33-77DD6A03B226">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:34:29 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFC09262-CDA4-1CFC-889E-7A6A40C42AC3" name="Projeto PK">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-10-12 14:25:07 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E946336-FDA3-6D11-8EC1-E60DF521DA88</attributeRef>
+<attributeRef>18EE23DA-7582-00BD-DACD-5AA388A6B2A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

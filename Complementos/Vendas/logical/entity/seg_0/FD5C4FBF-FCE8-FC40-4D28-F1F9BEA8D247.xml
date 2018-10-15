@@ -3,9 +3,6 @@
 <createdBy>Jefferson</createdBy>
 <createdTime>2018-09-27 03:20:32 UTC</createdTime>
 <ownerDesignName>Vendas</ownerDesignName>
-<engineerTo>
-<item key="818C9F7E-8483-4148-3F8E-D80735CE2236" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -14,4 +11,59 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CGC" id="5CED3C4A-DC14-F630-FA5F-469B54B5C298">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:26:02 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="38F1A71E-FC78-BF3A-65B2-A6A5E6285664">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:27:38 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco*" id="769B734C-1AA5-183F-819E-32AD89892796">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:28:21 UTC</createdTime>
+<comment>Trata-se de um atributo composto: logradouro, número, CEP, complemento, bairro, cidade</comment>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Inscrição Estadual" id="A02DD436-0181-2C36-10B0-BD94AB12FB59">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:30:04 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefones*" id="48CACF14-9F07-EA2E-4AB7-B3C43D72108A">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-09-29 03:30:49 UTC</createdTime>
+<comment>Trata-se de um conjunto de telefones</comment>
+<ownerDesignName>Vendas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6A8EDC4-A7AE-6221-12A2-CC31F69677A4" name="Fornecedor PK">
+<createdBy>Jefferson</createdBy>
+<createdTime>2018-10-12 14:24:57 UTC</createdTime>
+<ownerDesignName>Vendas</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CED3C4A-DC14-F630-FA5F-469B54B5C298</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
