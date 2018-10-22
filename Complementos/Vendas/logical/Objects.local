@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="Entity" objectID="10FD5C4F-3808-BC77-29EA-3F6860FBE7A6" name="Projeto" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="53DF355E-02C6-75DB-9E6E-F561B896E334" name="" seqName="seg_0"/>
-   <object objectType="Entity" objectID="72087C7E-990D-A9BB-1858-C22850AD3C03" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="53DF355E-02C6-75DB-9E6E-F561B896E334" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="72087C7E-990D-A9BB-1858-C22850AD3C03" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="97125525-1D93-1B50-33BF-6BCD023A8FA0" name="Peça" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="ABBE953E-167A-A193-EE1A-39C8ADDA85C6" name="Fornecedor" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="FD5C4FBF-FCE8-FC40-4D28-F1F9BEA8D247" name="" seqName="seg_0"/>
+   <object objectType="Entity" objectID="FD5C4FBF-FCE8-FC40-4D28-F1F9BEA8D247" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
    <object objectType="Relation" objectID="006E27E0-877E-31BE-AF5F-426180EDC351" name="Fornece" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
    <object objectType="Relation" objectID="26BB1A0D-4F82-5331-74F0-A226851A9E87" name="Aloca" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
    <object objectType="Relation" objectID="28FC7905-96E2-423B-79DE-86E5141E08BD" name="Compoe" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Relation" objectID="6D2CE170-8061-C9FB-2060-F59C4B32EC1E" name="" seqName="seg_0"/>
-   <object objectType="Relation" objectID="9E7C6445-0C3D-8D78-C196-2742936AC3FD" name="" seqName="seg_0"/>
-   <object objectType="Relation" objectID="D08050C9-A377-3E3B-DADA-BCA889923C52" name="" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6D2CE170-8061-C9FB-2060-F59C4B32EC1E" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="9E7C6445-0C3D-8D78-C196-2742936AC3FD" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="D08050C9-A377-3E3B-DADA-BCA889923C52" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
